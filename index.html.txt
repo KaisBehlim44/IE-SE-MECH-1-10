@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Website For Thermodynamics </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Introduction To Thermodynamics</h1>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>This is a simple website where you have upload and display information dynamically.</p>
+    </section>
+
+    <section id="upload">
+      <h2>Upload Information</h2>
+      <form id="uploadForm">
+        <label for="info">Enter Information:</label>
+        <textarea id="info" name="info" rows="4" cols="50" placeholder="Type your content here"></textarea>
+        <br>
+        <button type="submit">Upload</button>
+      </form>
+    </section>
+
+    <section id="display">
+      <h2>Uploaded Information</h2>
+      <div id="contentDisplay"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
